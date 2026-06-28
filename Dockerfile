@@ -22,6 +22,6 @@ ENTRYPOINT ["/entrypoint.sh"]
 # It will check for an /app/prestart.sh script (e.g. for migrations)
 # And then will start Supervisor, which in turn will start Nginx and uWSGI
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["/start.sh"]
